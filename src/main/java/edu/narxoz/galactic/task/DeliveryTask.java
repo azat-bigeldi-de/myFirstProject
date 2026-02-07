@@ -24,11 +24,21 @@ public class DeliveryTask {
         this.assignedDrone = null;
     }
 
-    public CelestialBody getOrigin() { return origin; }
-    public CelestialBody getDestination() { return destination; }
-    public Cargo getCargo() { return cargo; }
-    public TaskState getState() { return state; }
-    public Drone getAssignedDrone() { return assignedDrone; }
+    public CelestialBody getOrigin() { 
+        return origin; 
+    }
+    public CelestialBody getDestination() { 
+        return destination; 
+    }
+    public Cargo getCargo() { 
+        return cargo; 
+    }
+    public TaskState getState() { 
+        return state; 
+    }
+    public Drone getAssignedDrone() { 
+        return assignedDrone; 
+    }
 
     public double estimateTime() {
         if (assignedDrone == null) throw new IllegalStateException("assignedDrone is null");

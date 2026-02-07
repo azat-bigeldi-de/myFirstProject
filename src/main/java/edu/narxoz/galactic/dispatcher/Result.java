@@ -9,6 +9,10 @@ public class Result {
         this.reason = reason;
     }
 
-    public boolean ok() { return ok; }
-    public String reason() { return reason; }
+    public boolean ok() {
+        return ok;
+    }
+    public String reason() {
+        return reason; 
+    }
 }
